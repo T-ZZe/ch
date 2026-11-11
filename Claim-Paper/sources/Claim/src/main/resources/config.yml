@@ -1,0 +1,3 @@
+# true  : aucun mob ne spawn dans les zones (animaux, villageois... compris)
+# false : seuls les monstres hostiles sont bloqués
+block-passive-mobs: true

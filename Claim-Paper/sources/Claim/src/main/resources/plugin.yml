@@ -1,0 +1,15 @@
+name: Claim
+version: 1.0
+main: fr.claim.ClaimPlugin
+api-version: "26.3"
+softdepend: [CombatTagPlugin]
+commands:
+  claim:
+    description: Gestion des zones safe (modo)
+    usage: /claim stick | /claim remove | /claim list
+    permission: claim.mod
+    permission-message: "§cCette commande est réservée aux modérateurs."
+permissions:
+  claim.mod:
+    description: Créer/supprimer des zones safe et construire dedans
+    default: op
